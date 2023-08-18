@@ -1,0 +1,33 @@
+# Libs need with version
+# pg_ctl (PostgreSQL) 14.8 is required
+# python 3.11.1 is required
+# pip  22.3.1 is required
+asgiref             ==3.7.2
+Django              ==4.2.4
+djangorestframework ==3.14.0
+mysqlclient         ==2.2.0
+psycopg2            ==2.9.7
+pytz                ==2023.3
+setuptools          ==65.5.0
+sqlparse            ==0.4.4
+tzdata              ==2023.3
+
+'''
+asgiref             3.7.2  
+Django              4.2.4  
+djangorestframework 3.14.0 
+mysqlclient         2.2.0
+pip                 22.3.1
+psycopg2            2.9.7 
+pytz                2023.3
+setuptools          65.5.0
+sqlparse            0.4.4 
+tzdata              2023.3
+'''
+
+#Run ...>\ pip install -r requirements.txt
+#To install all required libs.
+# after installed all the requirements Run 
+#..>/ python manage.py makemigrations
+#..>/ python manage.py migrate
+#it will create all the tables and make the configuration to your database
